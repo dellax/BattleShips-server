@@ -25,12 +25,9 @@ wsServer.on('request', function (request) {
 
     connection.on('message', function (message) {
         if (message.type === 'utf8') {
+            console.log(message, key);
+            
             gamesManagement.processMessage(message, key);
-            /*console.log(message);
-             var json = JSON.stringify({type: 'message', data: {test: "ahoj"}});
-             for (var i = 0; i < clients.length; i++) {
-             clients[i].sendUTF(json);
-             }*/
         }
     });
 
