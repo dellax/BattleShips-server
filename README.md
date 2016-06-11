@@ -1,6 +1,7 @@
 # BattleShips-server
-Default simple server for Battleships game.   
-Client written in java [github.com/dellax/BattleShips-client](https://github.com/dellax/BattleShips-client)  
+Default simple server for Battleships game.    
+Client written in java [github.com/dellax/BattleShips-client](https://github.com/dellax/BattleShips-client)   
+
 ---
 ### How to run
 ```
